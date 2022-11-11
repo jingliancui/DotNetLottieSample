@@ -3,6 +3,9 @@ Sample for showing Lottie animation on .Net MAUI.
 
 Tutorial:
 
+https://mp.weixin.qq.com/s/8tO536_K0sy3LtXqnZ2Bgw
+
+https://zhuanlan.zhihu.com/p/582640654
 
 
 QQ Group:
