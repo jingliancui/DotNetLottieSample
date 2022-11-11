@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:skia="clr-namespace:SkiaSharp.Extended.UI.Controls;assembly=SkiaSharp.Extended.UI"
+             x:Class="SampleApp.MainPage">
+
+    <ScrollView>
+        <VerticalStackLayout
+            Spacing="25"
+            Padding="30,0"            
+            VerticalOptions="Center">
+
+            <!--https://github.com/mono/SkiaSharp.Extended/blob/f205dd6201a0f08749308bd72fe0adbbdc7f4c05/samples/Maui/SkiaSharpDemo/Demos/Lottie/LottiePage.xaml-->
+            <!--https://github.com/mono/SkiaSharp.Extended/blob/f205dd6201a0f08749308bd72fe0adbbdc7f4c05/samples/Maui/SkiaSharpDemo/Demos/Lottie/LottiePage.xaml.cs-->
+            <!--https://github.com/mono/SkiaSharp.Extended/blob/f205dd6201a0f08749308bd72fe0adbbdc7f4c05/samples/Maui/SkiaSharpDemo/MauiProgram.cs-->
+            <skia:SKLottieView RepeatCount="-1"  HeightRequest="200" WidthRequest="200" Source="panda.json"></skia:SKLottieView>
+            
+        </VerticalStackLayout>
+    </ScrollView>
+
+</ContentPage>
